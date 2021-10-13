@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?DOCTYPE note
+[
+<!ELEMENT note (Sno,Name ,college_name)>
+<!ELEMENT Sno(#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT College_name (#PCDATA)>
+
+]?>
+<?xml-stylesheet type="text/xsl" href="guidelines.xsl" ?>
+<bloodgroup>
+<details>
+<Sno> 1</Sno>
+<Name>HARI</Name>
+<college_name>sri krishna college </college_name>
+</details>
+
+
+<details>
+<Sno> 2</Sno>
+<Name>HARISH</Name>
+<college_name>Jain university </college_name>
+</details>
+<details>
+<Sno> 3</Sno>
+<Name>RAJ</Name>
+<college_name>SSM COLLEGE </college_name>
+</details>
+
+ 
+</bloodgroup>
